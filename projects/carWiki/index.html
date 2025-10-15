@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+	<title>
+		HOME PAGE
+	</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+
+	<!-- Linking CSS code -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Adding Javascript -->
+	<script src="script.js"></script>
+
+	 <!-- For the Hamburger Menu -->
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+	 <!-- Linking the font for the header and font for the paragraph -->
+	<link href="https://fonts.cdnfonts.com/css/berlin-sans-fb-demi" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">    
+	
+	<!-- Style sheet for the social media icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body onresize="showContainer()">
+
+	<div id="banner">
+		<a id="logo" href="index.html">CAR WIKI</a>
+	</div>
+	
+
+	<!-- Top Navigation Menu -->
+	<div class="topnav">
+
+		<!-- Navigation links (hidden by default) -->
+		<div id="myLinks">
+			<a class="links" href="index.html">HOME</a>
+			<a class="links" href="terminologies.html">TERMS</a>
+			<a class="links" href="fuelTypes.html">FUEL</a>
+			<a class="links" href="engines.html">ENGINE</a>
+			<a class="links" href="exhaust.html">EXHAUST</a>
+			<a class="links" href="transmission.html">TRANSMISSION</a>
+			<!-- <a class="links" href="contact.html">CONTACT</a> -->
+		</div>
+
+		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+		
+	</div>
+
+<!-- Navigation Bar for the pages -->
+	<div class="navBar">
+	
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="terminologies.html">TERMS</a></li>
+			<li><a href="fuelTypes.html">FUEL</a></li>
+			<li><a href="engines.html">ENGINE</a></li>
+			<li><a href="exhaust.html">EXHAUST</a></li>
+			<li><a href="transmission.html">TRANSMISSION</a></li>
+		</ul>
+		
+	</div>
+
+	
+	<!--Container where all the information for the pages will go  -->
+	<div id="container">
+		
+		<h1>CAR TYPES</h1>
+		<h2 class="center">(Click on Images to learn more)</h2>
+		<br><br>
+
+		<img id="button1" src="images/index/4x4.png" alt="4x4 Vehicle" onclick="showInfo('4x4Pic')" alt="Image of a 4x4" title="4x4 Vehicle"> 
+		<img id="button2" src="images/index/convertible.png" alt="Car Type 2" onclick="showInfo('convertiblePic')" alt="Image of a convertible" title="Convertible">
+		<img id="button3" src="images/index/coupe.png" alt="Car Type 3" onclick="showInfo('coupePic')" alt="Image of a coupe" title="Coupe">
+		<img id="button4" src="images/index/hatchback.png" alt="Car Type 4" onclick="showInfo('hatchbackPic')" alt="Image of a hatchback" title="Hatchback">
+		<img id="button5" src="images/index/mpv.png" alt="Car Type 5" onclick="showInfo('mpvPic')" alt="Image of a MPV" title="MPV">
+		<img id="button6" src="images/index/pickup.png" alt="Car Type 6" onclick="showInfo('pickupPic')" alt="Image of a Pickup" title="Pickup">
+		<img id="button7" src="images/index/sedan.png" alt="Car Type 7" onclick="showInfo('sedanPic')" alt="Image of a Sedan" title="Sedan">
+		<img id="button8" src="images/index/suv.png" alt="Car Type 8" onclick="showInfo('suvPic')" alt="Image of an SUV" title="SUV">
+		<br><br><br>
+			
+	</div>	
+	<div class="footer">
+
+		<div class="otherLinks">
+			<a href="files/sitemap.pdf" target="_blank">Site Map</a><br>
+			<a href="files/termsOfService.pdf" target="_blank">Terms of Service</a><br>
+			<a href="files/accessibilityStatement.pdf" target="_blank">Accessibility Statement</a><br>
+			<a href="mailto:378003@gmail.com" target="_blank">378003@gmail.com</a><br>
+			<p id="otherLinks">Llandudno Rd, Rhos on Sea, Colwyn Bay LL28 4HZ<br>
+			01492 546666</p>			
+		</div>
+
+		<div id="bannerFooter">
+			<a id="logoFooter" href="index.html">CAR WIKI</a>
+		</div>
+			
+		
+
+		<div class="socialMediaIcons">
+			<a href="https://www.facebook.com/colegllandrillo/?locale=en_GB" class="fa fa-facebook" target="_blank"></a>
+			<a href="https://twitter.com/colegllandrillo" class="fa fa-twitter" target="_blank"></a>
+			<a href="https://www.instagram.com/coleg_llandrillo/" class="fa fa-instagram" target="_blank"></a>
+			<a href="https://uk.linkedin.com/company/grwpllandrillomenai?trk=public_profile_topcard-current-company" class="fa fa-linkedin" target="_blank"></a>
+		</div>	
+		
+	</div>
+
+</body>
+
+</html>
+
